@@ -1,7 +1,9 @@
 ﻿@page "/games"
-
+@inject NavigationManager NavigationManager
 @inject IGameServices GameService
-@attribute [StreamRendering]
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+<Dialog @rendermode="RenderMode.InteractiveServer" />
 <h3>GameList</h3>
 
 @if(games == null)
@@ -21,6 +23,7 @@ else
         }
     </ul>
 }
+<button @onclick="CreateGame" class="btn btn-primary">Create Game</button>
 @code {
 
     List<Game> games = null;
@@ -28,5 +31,9 @@ else
     protected override async Task OnInitializedAsync()
     {
         games = await GameService.GetGamesAsync();
+    }
+   public void CreateGame()
+    {
+        NavigationManager.NavigateTo("edit-game");
     }
 }
