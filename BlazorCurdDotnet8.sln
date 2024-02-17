@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCurdDotnet8", "BlazorCurdDotnet8\BlazorCurdDotnet8\BlazorCurdDotnet8.csproj", "{CE5D5992-2C54-4EFB-8792-02462343C8FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCurdDotnet8", "BlazorCurdDotnet8\BlazorCurdDotnet8\BlazorCurdDotnet8.csproj", "{CE5D5992-2C54-4EFB-8792-02462343C8FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorCurdDotnet8.Client", "BlazorCurdDotnet8\BlazorCurdDotnet8.Client\BlazorCurdDotnet8.Client.csproj", "{A4D6D0F5-6058-46D1-88E8-AFA00A7ECB95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorCurdDotnet8.Client", "BlazorCurdDotnet8\BlazorCurdDotnet8.Client\BlazorCurdDotnet8.Client.csproj", "{A4D6D0F5-6058-46D1-88E8-AFA00A7ECB95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
